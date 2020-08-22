@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  max-width: 375px;
+  margin: 10px auto;
+}
+body {
+  background-image: url("./images/bg-mobile.png"),
+    linear-gradient(rgba(75, 0, 130, 0.8), rgba(75, 0, 130, 0.8));
+  background-repeat: no-repeat;
+}
+.img1 {
+  width: 120px;
+  padding-left: 20px;
+}
+.img2 {
+  width: 78%;
+  padding-left: 30px;
+}
+h2 {
+  width: 78%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #d3d3d3;
+}
+p {
+  width: 78%;
+  color: #d3d3d3;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+button {
+  background: #ffffff;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  display: flex;
+  border: none;
+}
+.fa {
+  margin-left: 20px;
+}
+.icons {
+  text-align: center;
+  color: #ffffff;
+}
+.fa-facebook-f {
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid #ffffff;
+}
+.fa-twitter {
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid #ffffff;
+}
+.fa-instagram {
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (min-width: 375px) {
+  * {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  body {
+    background-image: url("./images/bg-desktop.png"),
+      linear-gradient(rgba(75, 0, 130, 0.8), rgba(75, 0, 130, 0.8));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .img1 {
+    width: 200px;
+    padding: 30px;
+  }
+  p {
+    padding-bottom: 30px;
+    color: #d3d3d3;
+    font-family: "Poppins", sans-serif;
+  }
+  .div0 {
+    transform: translateY(100px);
+  }
+  .div1 {
+    float: left;
+    width: 50%;
+    height: 400px;
+  }
+  .div2 {
+    width: 50%;
+  }
+  .div3 {
+    float: left;
+  }
+  .div4{
+      
+  }
+  .icons {
+    transform: translate(150px, 300px);
+  }
+
+}
